@@ -5,11 +5,10 @@ on:
   #   branches: [ main, release/* ]
   # pull_request:
   #   branches: [ main, develop, main, release/* ]
-    # -Cody origi-
     workflow_dispatch:
     schedule:
     # every 30 minutes
-      - cron: '*/30 * 18 * *'
+    #  - cron: '*/30 * 18 * *'
     # every weeknight at 1900 CST/ 0100 UTC
       - cron: '* 1 * * 1-5'
 
