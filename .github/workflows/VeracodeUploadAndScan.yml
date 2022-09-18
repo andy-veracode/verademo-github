@@ -5,7 +5,8 @@ on:
   #   branches: [ main, release/* ]
   # pull_request:
   #   branches: [ main, develop, main, release/* ]
-    # -Cody origi- workflow_dispatch:
+    # -Cody origi-
+    workflow_dispatch:
     schedule:
     # every 45 minutes
       - cron: '*/45 * 18 * *'
